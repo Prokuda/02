@@ -72,7 +72,6 @@ quote:
 chapters:
   enable : true
   title : "Full Chapter Overview"
-  subtitle : "Libero atque veniam molestiae ipsa aliquid quam facilis dolore."
   chapter:
     # chapter preview loop
     - title : "Chapter 1"
@@ -103,7 +102,6 @@ chapters:
 reviews:
   enable : true
   title : "What people are saying"
-  subtitle : "Amazing reviews illo tenetur laboriosam excepturi velit in, temporibus ab rem dicta sint obcaecati!"
   review:
     # review item loop
     - name : "Barrow Hasi"
