@@ -132,6 +132,32 @@ reviews:
       content : "Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam."
 
 
+#################################### device ################################
+devices:
+  enable : true
+  title : "Read it on your favorite device!"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae quod, nobis repudiandae! In
+          commodi accusamus molestiae, sunt, tempora fugiat doloribus sint quisquam illo numquam corporis
+          tenetur necessitatibus expedita eius, sed."
+  image : "images/about/ipad.jpg"
+  feature:
+    # feature item loop
+    - title : "Take a sneak peak insight"
+      icon : "ti-bar-chart" # themify icon pack : https://themify.me/themify-icons
+      content : "Sed laborum omnis earum facere culpa optio natus quaerat minus."
+      
+    # feature item loop
+    - title : "Reporting & Analysis"
+      icon : "ti-write" # themify icon pack : https://themify.me/themify-icons
+      content : "Sed laborum omnis earum facere culpa optio natus quaerat minus."
+
+
+  # button
+  button:
+    enable : true
+    label : "Purchase on amazon"
+    link : "#"
+
 ######################################## author #############################
 author:
   enable : true
