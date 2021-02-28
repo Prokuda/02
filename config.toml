@@ -1,7 +1,7 @@
 ######################## default configuration ####################
-baseURL = "https://newsshop.vercel.app/"
+baseURL = "https://mybook-shop.vercel.app/"
 languageCode = "en-us"
-title = "Influencer"
+title = "My Book Shop"
 theme = "influencer-hugo"
 summaryLength = "10"
 paginate = 6
