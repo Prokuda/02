@@ -136,20 +136,18 @@ reviews:
 devices:
   enable : true
   title : "Read it on your favorite device!"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae quod, nobis repudiandae! In
-          commodi accusamus molestiae, sunt, tempora fugiat doloribus sint quisquam illo numquam corporis
-          tenetur necessitatibus expedita eius, sed."
   image : "images/about/ipad.jpg"
   feature:
     # feature item loop
     - title : "Take a sneak peak insight"
       icon : "ti-bar-chart" # themify icon pack : https://themify.me/themify-icons
-      content : "Sed laborum omnis earum facere culpa optio natus quaerat minus."
+      content : "In Four Lost Cities, acclaimed science journalist Annalee Newitz takes readers on an entertaining and mind-bending adventure into the deep history of urban life."
       
     # feature item loop
     - title : "Reporting & Analysis"
       icon : "ti-write" # themify icon pack : https://themify.me/themify-icons
-      content : "Sed laborum omnis earum facere culpa optio natus quaerat minus."
+      content : "Tracing the early development of urban planning, Newitz also introduces us to the often anonymous workers — slaves, women, immigrants, and manual laborers — who 
+      built these cities and created monuments that lasted millennia."
 
 
   # button
