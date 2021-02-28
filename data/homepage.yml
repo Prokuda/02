@@ -219,7 +219,6 @@ otherBooks:
 blog:
   enable : true
   title : "Our insights and articles"
-  subtitle : "Laboriosam eos aperiam excepturi accusamus velit repudiandae sit rem incidunt, similique facere quas blanditiis."
   # blog post comes from 'content/blog'
 
 ################################# Contact ##############################
