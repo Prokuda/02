@@ -162,7 +162,7 @@ devices:
 author:
   enable : true
   image : "images/about/home-1.jpg"
-  name : "Yasin Arafat"
+  name : "Annalee Newitz"
   designation : "A technical Writer"
   content : "
   Do you want to be even more successful? Learn to love learn and growth. The more efort you put into improving your skills, the bigger the payoff you will get.
@@ -200,8 +200,6 @@ awards:
 otherBooks:
   enable : true
   title : "Others books by the author"
-  subtitle : "Laboriosam eos aperiam excepturi accusamus velit repudiandae sit rem incidunt, similique
-            facere quas blanditiis."
   book:
     # books loop
     - image : "images/about/b-1.jpg"
@@ -230,22 +228,22 @@ blog:
 contact:
   enable : true
   title : "Contact Us"
-  subtitle : "Whether you have questions or you would just like to say hello, contact us.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, atque!"
+  subtitle : "Whether you have questions or you would just like to say hello, contact us."
   contactItem:
     # contact Item loop
     - title : "Contact Quickly"
       icon : "ti-headphone-alt" # themify icon pack : https://themify.me/themify-icons
       list:
-        - listItem : "+23-68017684"
+        - listItem : "+23-10894728"
         
     # contact Item loop
     - title : "Email"
       icon : "ti-email" # themify icon pack : https://themify.me/themify-icons
       list:
-        - listItem : "startor@support.com"
+        - listItem : "mybook@support.com"
         
     # contact Item loop
     - title : "Location"
       icon : "ti-location-pin" # themify icon pack : https://themify.me/themify-icons
       list:
-        - listItem : "397 Lake forest drive street USA"
+        - listItem : "245/2 Lake forest drive street USA"
