@@ -1,113 +1,56 @@
-# Newsroom Theme
+<div align="center">
+<h1><a href="https://gethugothemes.com/">Influencer Hugo</a></h1>
+<img src="https://user-images.githubusercontent.com/37659754/69491097-b022d480-0eba-11ea-9a99-35c0a0e30b5c.gif" alt="screenshot" width="100%">
+</div>
 
-This is a simple, minimalistic theme, which is inspired by [Apple's Newsroom page](https://www.apple.com/newsroom/). It uses *grid css*, *flexbox* & js (no jQuery, or related libraries).
+**The images are only for demonstration purpose, Please don't use those images.**
 
-![Hugo Newsroom Theme](https://github.com/onweru/newsroom/blob/master/images/screenshot.png)
+## Table of Contents
 
-## Features
+- [Demo](#demo)
+- [Installation](#installation)
+- [Main Features](#main-features)
+- [Reporting Issues](#reporting-issues)
+- [Technical Support or Questions](#technical-support-or-questions-(paid))
+- [More Hugo Themes](https://gethugothemes.com/shop/)
 
-* Blog
-* Modern
-* Responsive
-* Deeplinks
-* Dark Mode
-* Supports native lazy loading of images & iframes
-* Syntax highlighting
+## Demo
 
-### Deeplinks
-
-For all content published using markdown, deeplinks will be added to the pages so that you can share with precision :smiley: Just   hover on a heading and the link button will pop. Click it to copy.
+[Live Demo](http://demo.themefisher.com/influencer-hugo/).
 
 ## Installation
 
-Add this theme as a Git submodule inside your Hugo site folder:
+Navigate to your themes folder in your Hugo site and use the following commands:
 
-```bash
-git submodule add https://github.com/onweru/newsroom.git themes/newsroom
+**Note : You must use `hugo-extended` version to compile SCSS**
+
 ```
-
-> Theme hugo sass and hugo-extended version.
-
-## Configuration
-
-You can configure the site as follows:
-
-1. **General Information**
-
-    Use `config.toml` file.
-
-2. **menu**, **footer**
-
-    See the yaml files inside the `data/` directory.
-
-## Start publishing
-
-Follow the `exampleSite/`; specifically, the [content](https://github.com/onweru/newsroom/tree/master/exampleSite/content/post) directory
-
-### Dark Mode
-
-Today, operating systems have a system-wide __light ~ dark mode__ switch. Your website will adapt to the user's preferred lighting mode. Still, if the user wants to opt in or out of darkmode, there's a UI control for that too in the menu 😊.
-
-![Dark Mode](https://github.com/onweru/newsroom/blob/master/images/screenshot-dark.png)
-
-#### How do I disable dark mode?
-
-Under `params` add `disableDarkMode = true` to your `config.toml` file. If your site is based on the exampleSite, the value is already included; you only need to uncomment it.
-
-> ⚠️ If you disable darkmode, the UI control for toggling darkmode will remain in place. This way, the user can decide which mode they would like to use while browsing your website
-
-### Custom 404 Page
-
-![404 page](https://github.com/onweru/newsroom/blob/master/images/404.png)
-
-### Syntax highlighting
-
-![404 page](https://github.com/onweru/newsroom/blob/master/images/syntax.png) 
-
-If you wish, you can opt to [use Chroma](./exampleSite/config.toml#L17-L27).
-
-### I want to use disqus
-
-If you like, you could [use disqus on your site](https://github.com/onweru/newsroom/issues/2). To enable disqus on your site, simply, add the line below to you `config.toml` file. If you're working off the [exampleSite](https://github.com/onweru/newsroom/tree/master/exampleSite), the line is [already there](https://github.com/onweru/newsroom/blob/ad9b7a9f7ea266b539f846a2f3bdf080e648bb84/exampleSite/config.toml#L15-L16); just uncomment it.
-
-```toml
-disqusShortname = "yourdiscussshortname"
+$ mkdir themes
+$ cd themes
+$ git clone https://github.com/themefisher/Influencer-hugo.git
 ```
-> Remember to edit the `yourdiscussshortname` appropriately.
+Or Check out [Full Documentation](https://docs.gethugothemes.com/influencer/?ref=github).
 
-From your disqus dashboard, set your scripts `color scheme` to __auto__. See screenshot below
+## Main features
 
-![](https://github.com/onweru/newsroom/blob/master/images/disqus-color-scheme.png)
+- Bootstrap 4 Powered
+- Google Analytics
+- SEO Friendly
+- Multiple Author
+- Ecommerce Ready
+- Responsive Ready
 
-## Custom Shortcodes
+## Reporting Issues
 
-This theme ships with __2 custom shortcodes__ (they both use positional parameters):
+We use GitHub Issues as the official bug tracker for the Navigator Template. Please Search [existing issues](https://github.com/themefisher/influencer-hugo/issues). It’s possible someone has already reported the same problem.
+If your problem or idea is not addressed yet, [open a new issue](https://github.com/themefisher/influencer-hugo/issues)
 
-1. __Video__
-    This shortcode can be used to embed a youtube video with custom styling. It takes a solo positional parameter.
+## Technical Support or Questions (Paid)
 
-    ```
-    ...
-    {{< video "youtubeVideoID" >}}
-    ...
-    ```
+If you have questions or need help integrating the product please [contact us](mailto:mehedi@themefisher.com) instead of opening an issue.  
 
-2. __Picture__
-    You want to use darkmode images when darkmode is enabled on a device and a regular image on lightmode? It takes 3 positional parameter
+## Premium Themes
 
-    Store these images in the `static/images` directory.
-    ```
-    ...
-    {{< picture "lightModeImage.png" "darkModeImage.png" "Image alt text" >}}
-    ...
-    ```
-
-## From the same creator
-
-1. [Clarity Theme](https://github.com/chipzoller/hugo-clarity)
-2. [Compose Theme](https://github.com/onweru/compose)
-3. [Swift Theme](https://github.com/onweru/hugo-swift-theme)
-
-## License
-
-This theme is available under the [MIT license](https://github.com/onweru/newsroom/blob/master/LICENSE.md).
+| [![Mega-Bundle-HUGO](https://gethugothemes.com/wp-content/uploads/edd/2019/09/Mega-Bundle-HUGO.png)](https://themefisher.com/products/hugo-mega-bundle/) | [![Adrian](https://gethugothemes.com/wp-content/uploads/edd/2019/12/adrian-ecommerce-template.jpg)](https://gethugothemes.com/products/adrian/) | [![Hargo](https://gethugothemes.com/wp-content/uploads/edd/2019/10/Hargo.png)](https://gethugothemes.com/products/hargo/) |
+|:---:|:---:|:---:|
+| **Hugo Mega Bundle**  | **Adrian**  | **Hargo** |

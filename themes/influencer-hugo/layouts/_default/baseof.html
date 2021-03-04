@@ -1,13 +1,10 @@
 <!DOCTYPE html>
-{{- $params := .Site.Params }}
-<html lang="{{ .Lang }}" {{ if $params.disableDarkMode }}class="nodarkmode"{{ end }}>
-  {{ partial "head" . }}
-  <body>
-    {{ partial "nav" . }}
-    <main>
-      {{ block "main" . }}{{ end }}
-    </main>
-    {{ partial "footer" . }}
-    {{ partial "sprites" . }}
-  </body>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    {{- partial "head.html" . -}}
+    <body>
+        {{- partial "preloader.html" . -}}
+        {{- partial "header.html" . -}}
+        {{- block "main" . }}{{- end }}
+        {{- partial "footer.html" . -}}
+    </body>
 </html>

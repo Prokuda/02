@@ -1,12 +1,12 @@
-name = "newsroom"
+name = "Influencer Hugo"
 license = "MIT"
-licenselink = "https://github.com/onweru/newsroom/blob/master/LICENSE.md"
-description = "A simple open source theme for publishing multi-purpose content"
-homepage = "https://github.com/onweru/newsroom"
-tags = ["blog", "simple", "dark", "minimalist", "fast", "disqus", "syntax highlighting"]
-features = ["blog", "simple", "dark", "minimalist", "fast", "disqus", "syntax highlighting"]
-min_version = "0.63.0"
+licenselink = "https://github.com/themefisher/influencer-hugo/blob/master/LICENSE"
+description = "Ecommerce Template"
+homepage = "https://gethugothemes.com/products/influencer-hugo/"
+tags = ["Ecommerce", "bootstrap", "blog", "contact", "responsive", "gethugothemes", "clean" , "Single Product", "Minimal", "light", "google analytics", "mobile", "fast", "customizable", "white", "flex", "pages", "hugo themes", "hugo templates", "netlify", "Themefisher", "one page"]
+features = ["Ecommerce", "responsive", "bootstrap-4"]
+min_version = "0.62.0"
 
 [author]
-    name ="weru"
-    homepage = "https://github.com/onweru/newsroom"
+  name = "Themefisher"
+  homepage = "https://themefisher.com/"

