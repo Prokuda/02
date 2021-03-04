@@ -1,7 +1,7 @@
 ######################## default configuration ####################
-baseURL = "https://my-book-shop.vercel.app/"
+baseURL = "https://my-book-shop.vercel.app"
 languageCode = "en-us"
-title = "My Book Shop"
+title = "The Man in the Glass House"
 theme = "influencer-hugo"
 summaryLength = "10"
 paginate = 6
@@ -92,7 +92,7 @@ expire_days = 2
   
 ############################# Footer ########################
 [params.footer]
-content = "Thank you for supporting these lofty goals. Your choice sustains a family business, and allows us to follow our passion for getting the right books into the right hands, 365 days a year."
+content = "Called a masterpiece by The New York Times, the acclaimed trilogy from Tove Ditlevsen, a pioneer in the field of genre-bending confessional writing"
 
 
 ############################# post share ###################
