@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://my-book-shop.vercel.app"
+baseURL = "https://greece24news.vercel.app/"
 languageCode = "en-us"
 title = "Four Lost Cities"
 theme = "influencer-hugo"
